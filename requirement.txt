@@ -4,8 +4,9 @@ crispy-bootstrap5==2025.6
 Django==6.0.2
 django-crispy-forms==2.5
 django-environ==0.13.0
+gunicorn==25.1.0
+packaging==26.0
 psycopg2==2.9.11
 pytz==2025.2
 sqlparse==0.5.5
 tzdata==2025.3
-whitenoise==6.12.0
