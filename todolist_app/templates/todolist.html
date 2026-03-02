@@ -17,6 +17,9 @@
   
 <form method="POST" class="mb-3">
   {% csrf_token %}
+  <div class="form-group">
+  <input type="text" class="form-control" placeholder="New Task?">
+  </div>
   {{ form|crispy }}
   <button type="submit" class="btn btn-primary">Add</button>
 </form>
